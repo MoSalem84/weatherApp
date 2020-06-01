@@ -1,11 +1,3 @@
-// APP CONSTS AND VARS
-
-//  الوحده الي جايه من api بتكون  بمقاس KELVIN
-const KELVIN = 273;    
-// API KEY
-const key = "82005d27a116c2880c8f0fcb866998a0";
-
-//=======================
 
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
@@ -20,6 +12,9 @@ const weather = {};
 weather.temperature = {
     unit : "celsius"
 }
+// App consts and var 
+const KELVIN = 273;    
+const key = "82005d27a116c2880c8f0fcb866998a0";
 
 
 // CHECK IF BROWSER SUPPORTS GEOLOCATION
