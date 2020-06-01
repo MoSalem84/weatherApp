@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> cbddf7ed3e0c9b8fed97834bcda2ea75bda3a3de
 
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
@@ -19,10 +15,8 @@ weather.temperature = {
 // App consts and var 
 const KELVIN = 273;    
 const key = "82005d27a116c2880c8f0fcb866998a0";
-<<<<<<< HEAD
 
 =======
->>>>>>> cbddf7ed3e0c9b8fed97834bcda2ea75bda3a3de
 
 // CHECK IF BROWSER SUPPORTS GEOLOCATION
 if('geolocation' in navigator){
@@ -97,17 +91,4 @@ tempElement.addEventListener("click", function(){
         weather.temperature.unit = "celsius"
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
